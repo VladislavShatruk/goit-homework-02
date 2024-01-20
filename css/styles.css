@@ -1,6 +1,6 @@
 body {
     font-family: "Roboto", sans-serif;
-    color: #FFF;
+    color: #434455 ;
     background-color: #FFF;
 }
 ul {
@@ -35,14 +35,17 @@ a {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #4d5ae5;
+
 }
 .logo-subject {
-    color: var(--IRIS, #4D5AE5);
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+    color: var(--NAVY-BLUE, #2E2F42);
+font-family: Raleway;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17; /* 116.667% */
+letter-spacing: 0.02em;
+text-transform: uppercase;
 }
 .header-address-link {
     color: var(--SLATE, #434455);
@@ -72,6 +75,7 @@ a {
 
 .hero-btn {
     color: var(--WHITE, #FFF);
+    background-color: #4D5AE5;
     font-family: inherit;
     font-size: 16px;
     font-weight: 500;
@@ -123,7 +127,7 @@ a {
 }
 
 .team-list {
-    background-color: #FFFFFF;
+    background-color: #FFF;
 }
 
 .team-title {
@@ -174,10 +178,6 @@ a {
     text-transform: capitalize;
 }
 
-.portfolio-list-img {
-    width: 360px;
-}
-
 .portfolio-list-title {
     color: var(--NAVY-BLUE, #2E2F42);
     font-size: 20px;
@@ -207,13 +207,13 @@ a {
 
 }
 
-.footer-logo-subject {
+.logo-subject {
     color: var(--CLOUD, #F4F4FD);
     font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.02em;
     text-transform: uppercase;
 }
 
