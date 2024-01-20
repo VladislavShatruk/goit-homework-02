@@ -38,7 +38,7 @@ a {
 
 }
 .logo-subject {
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: #2e2f42;
 font-family: Raleway;
 font-size: 18px;
 font-weight: 700;
@@ -46,6 +46,15 @@ line-height: 1.17; /* 116.667% */
 letter-spacing: 0.02em;
 text-transform: uppercase;
 }
+
+.header-menu-link:hover {
+    color:#404bbf
+}
+
+.header-menu-link:focus {
+    color:#404bbf
+}
+
 .header-address-link {
     color: var(--SLATE, #434455);
     font-size: 16px;
@@ -53,7 +62,16 @@ text-transform: uppercase;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+address {
+    font-style: normal;
+}
 
+.header-address-link:hover {
+    color: #404bbf;
+}
+.header-address-link:focus{
+    color: #404bbf;
+}
 
 /* ================================== */
 /* HERO */
@@ -124,7 +142,7 @@ text-transform: uppercase;
     background-color: var(--CLOUD, #F4F4FD);
 }
 
-.team-list {
+.team-item {
     background-color: #FFF;
 }
 
