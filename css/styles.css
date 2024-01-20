@@ -1,5 +1,6 @@
 body {
     font-family: "Roboto", sans-serif;
+    color: #FFF;
     background-color: #FFF;
 }
 ul {
@@ -13,18 +14,6 @@ a {
 }
 
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
 
 
 /* ================================== */
@@ -43,7 +32,7 @@ a {
     color: var(--NAVY-BLUE, #2E2F42);
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -51,7 +40,7 @@ a {
     color: var(--IRIS, #4D5AE5);
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -74,6 +63,7 @@ a {
 }
 .hero-title {
     color: var(--WHITE, #FFF);
+    background-color: #4D5AE5;
     text-align: center;
     font-size: 56px;
     line-height: 1.07;
@@ -87,6 +77,15 @@ a {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.hero-btn:hover {
+    background-color: #404BBF
+}
+
+.hero-btn:focus {
+    background-color: #404BBF
 }
 
 
@@ -123,6 +122,10 @@ a {
     background-color: var(--CLOUD, #F4F4FD);
 }
 
+.team-list {
+    background-color: #FFFFFF;
+}
+
 .team-title {
     color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
@@ -133,8 +136,7 @@ a {
 }
 
 .team-list-img {
-    width: 264px;
-    height: 260px;
+
 }
 .team-list-title {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -172,6 +174,10 @@ a {
     text-transform: capitalize;
 }
 
+.portfolio-list-img {
+    width: 360px;
+}
+
 .portfolio-list-title {
     color: var(--NAVY-BLUE, #2E2F42);
     font-size: 20px;
@@ -206,7 +212,7 @@ a {
     font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
